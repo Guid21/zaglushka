@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import { useRouter } from 'next/router';
 import axios from 'axios';
-import { Markup } from 'interweave';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import styles from './Product.module.scss';
