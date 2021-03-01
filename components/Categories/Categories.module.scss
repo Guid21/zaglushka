@@ -1,0 +1,41 @@
+.Categories {
+  .CatName {
+    font-size: 24px;
+  }
+
+  .Subs {
+    display: flex;
+    flex-wrap: wrap;
+
+    .Sub {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+
+      &:hover {
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+      }
+
+      .Title {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  > div {
+    margin-top: 30px;
+  }
+}
+
+.Loading {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

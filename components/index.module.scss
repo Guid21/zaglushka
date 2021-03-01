@@ -1,0 +1,14 @@
+@import '../shared/assert/styles.scss';
+
+.Layout {
+  max-width: 1140px;
+  margin: 0 auto;
+  .Header {
+    display: flex;
+    justify-content: space-between;
+
+    @media all and (max-width: 776px) {
+      flex-direction: column;
+    }
+  }
+}

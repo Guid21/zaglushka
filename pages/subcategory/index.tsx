@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Categories from '../components/Categories';
-import Layout from '../components/Layout';
+import Subcategory from '../../components/Subcategory';
+import Layout from '../../components/Layout';
 
 const IndexPage = () => (
   <Layout title="Интернет магазин заглушек в Узбекистане">
-    <Categories />
+    <Subcategory />
   </Layout>
 );
 

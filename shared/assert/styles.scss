@@ -1,0 +1,18 @@
+.ant-table {
+  .ant-table-content {
+    .ant-table-body {
+      table {
+        table-layout: fixed;
+        border-collapse: collapse;
+      }
+    }
+  }
+
+  @media all and (max-width: 776px) {
+    overflow-x: scroll;
+
+    table {
+      min-width: 846px;
+    }
+  }
+}
