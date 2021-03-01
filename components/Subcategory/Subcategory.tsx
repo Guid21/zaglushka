@@ -26,14 +26,14 @@ const columns = [
   {
     title: 'Артикул',
     key: 'article',
-    render: ({ article, sub_cat }: Product) => (
+    render: ({ article }: Product) => (
       <a href={`/product/?article=${article}`}>{article}</a>
     ),
   },
   {
     title: '',
     key: 'imgs',
-    render: ({ imgsArr, article, sub_cat }: Product) => (
+    render: ({ imgsArr, article }: Product) => (
       <>
         {imgsArr.map((img) => (
           <a href={`/product/?article=${article}`}>
