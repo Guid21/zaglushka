@@ -1,6 +1,6 @@
 import { connectFind } from '../../../shared/mongo';
 
-export default async (req: any, res: any) => {
+export default async (_: any, res: any) => {
   const response: any = await connectFind({
     col: 'categories',
     query: {},
